@@ -1,0 +1,23 @@
+.members{
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.memberWrapper{
+    padding: 10px;
+}
+
+.title{
+    background: #ffffffc5;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 10px;
+    color: #333;
+}
+
+@media (min-width: 1024px){
+    .members{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

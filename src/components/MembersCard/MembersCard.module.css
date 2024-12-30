@@ -1,0 +1,43 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #ffffffb2;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: transform .2s ease;
+}
+
+.card:hover{
+    transform: translateY(-2%);
+}
+
+.imgPH img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgPH{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.name svg{
+    color: rgb(18, 109, 165);
+}
